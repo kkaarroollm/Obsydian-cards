@@ -1,3 +1,10 @@
+---
+tags:
+  - pytest
+  - plugins
+  - unit_tests
+---
+
 **📝 4. Pytest Plugins**
 
   
@@ -11,4 +18,3 @@
 | pytest-django | Testowanie aplikacji Django    |
 | pytest-xdist  | Równoległe uruchamianie testów |
 | pytest-html   | Generowanie raportów HTML      |
-#pytest #plugins #unit_tests

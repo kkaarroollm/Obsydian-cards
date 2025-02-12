@@ -1,3 +1,9 @@
+---
+tags:
+  - pytest
+  - unit_tests
+---
+
 **📝 1. Pytest i Testy Jednostkowe**
 
   
@@ -37,5 +43,3 @@ pytest               # Uruchomienie wszystkich testów
 pytest -v            # Szczegółowy output
 
 ```
-
-#pytest #unit_tests

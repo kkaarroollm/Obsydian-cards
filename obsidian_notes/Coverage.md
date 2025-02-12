@@ -1,3 +1,9 @@
+---
+tags:
+  - pytest
+  - coverage
+---
+
 **📝 2. Coverage – Pokrycie Testami**
 
   
@@ -34,6 +40,3 @@ pytest --cov=.          # Pokrycie całego projektu
 pytest --cov=. --cov-report=html
 
 ```
-
-
-#pytest #coverage

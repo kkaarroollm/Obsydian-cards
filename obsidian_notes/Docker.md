@@ -1,3 +1,9 @@
+---
+tags:
+  - docker
+  - containers
+---
+
 ## 1. Czym jest Docker?
 Docker to platforma do tworzenia, uruchamiania i zarządzania kontenerami. Kontenery umożliwiają uruchamianie aplikacji w izolowanych środowiskach, co zapewnia ich przenośność i spójność niezależnie od infrastruktury.
 
@@ -93,4 +99,3 @@ docker exec -it <id_kontenera> /bin/sh
 docker logs <id_kontenera>
 ```
 
-#docker #containers

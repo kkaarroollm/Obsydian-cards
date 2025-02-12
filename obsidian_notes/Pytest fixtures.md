@@ -1,6 +1,11 @@
-**📝 3. Pytest Fixtures**
+---
+tags:
+  - fixtures
+  - pytest
+  - unit_tests
+---
 
-  
+**📝 3. Pytest Fixtures**
 
 **🔹 Co to jest fixture?**
 
@@ -38,4 +43,4 @@ def setup_teardown():
 
 ```
 
-#fixtures #pytest #unit_tests 
+ 
