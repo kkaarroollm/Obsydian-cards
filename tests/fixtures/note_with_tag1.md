@@ -1,5 +1,3 @@
-# Tag1 Note 
-
 ---
 tags:
     - tag1

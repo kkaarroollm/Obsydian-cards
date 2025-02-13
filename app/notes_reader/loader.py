@@ -28,9 +28,9 @@ class NotesLoader(NotesLoaderABC):
         return bool(tags & self._tags)
 
     @staticmethod
-    def _extract_file_metadata(content: str) -> dict | Any:
+    def _extract_file_metadata(content: str) -> Any:
         """Extracts metadata from the Obsydian note file."""
-        match_ = re.search(r"---\n(.*?)\n---", content, re.DOTALL)
+        match_ = re.match(r"^---\n(.*?)\n---", content, re.DOTALL)
         if not match_:
             return {}
         try:
