@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        task: ["ruff check", "mypy", "pytest"]
+        task: ["ruff check", "mypy .", "pytest -v"]
     steps:
       - uses: actions/checkout@v4
 
